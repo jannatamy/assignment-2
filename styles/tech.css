@@ -243,8 +243,15 @@ header .nav-btn{
 }
 
 #number-container .number-box .box p{
-
+    text-transform: uppercase;
     font-size: 16px;
     font-weight: 400px;
-    line-height: 20px
+    line-height: 20px;
+    padding-top: 16px;
 }
+
+
+/* choose section */
+
+
+
