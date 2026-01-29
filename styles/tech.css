@@ -460,3 +460,41 @@ header .nav-btn{
     height: 20px;
     width: 20px;
 }
+
+/* footer section */
+
+
+
+footer{
+    width: 100%;
+    max-width: 1600px;
+
+}
+
+#footer-container .footer-back-image{
+    background-image: url("../assets/footer-bg.png");
+    height: 412px;
+    width: 100%;
+}
+
+#footer-container .footer-back-image .footer-content{
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+}
+
+#footer-container .footer-back-image .footer-content .icon-name .icon-details{
+    display: flex;
+    gap: 2.5px;
+    text-align: center;
+}
+
+#footer-container .footer-back-image .footer-content .icon-name{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
