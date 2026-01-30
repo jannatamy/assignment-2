@@ -70,6 +70,10 @@ header .nav-btn{
     font-weight: 600px;
 }
 
+.hamburger{
+    display: none;
+}
+
 
 /* banner section  */
 
@@ -530,7 +534,127 @@ footer{
 
 @media screen and (max-width:576px){
 
-    #about-container{
+header .nav-bar .nav-container{
+    width: 576px;
+    height: 60px;
+    margin: 0px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav-logo{
+    font-size: 20px;
+    font-weight: 600px;
+    color: #9100F8;
+    
+}
+
+header .nav-list{
+    /* display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 32px; */
+}
+
+header .nav-list a{
+    display: none;
+    /* text-decoration: none;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 120%;
+    color: #FFFFFF; */
+}
+
+header .nav-btn{
+    display: none;
+    /* background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+    border: none;
+    border-radius: 1000px;
+    padding: 12px 16px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600px; */
+}
+
+.hamburger{
+    display: block;
+}
+
+
+#banner-container{
+    width: 100%;
+    max-width: 576px;
+}
+
+#banner-container .back-image{
+    background-image: url('../assets/hero-bg.png');
+    width: 100%;
+    height: 466px;
+    max-width: 576px;
+    background-repeat: no-repeat;
+}
+
+#banner-container .back-image .banner-images{
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+
+#banner-container .back-image .banner-images .circle-image{
+    padding-top: 40px;
+}
+
+#banner-container .back-image .banner-images .circle-image img {
+    height: 200px;
+    width: 200px;
+}
+
+#banner-container .back-image .banner-images .mic-image img{
+    height: 70px;
+    width: 46px;
+}
+
+#banner-container .back-image .banner-images .mic-image{
+    position: absolute;
+    top: 170px;
+    left: 260px;
+}
+
+#banner-container .back-image .banner-images .badge{
+    background-color: #00FF88;
+    color: #1A0B2E;
+    width: 70px;
+    height: 35px;
+    border-radius: 1000px;
+    text-align: center;
+    align-items: center;
+    padding-top: 8px;
+    box-shadow: #00ff8815 5px 5px 5px 5px;
+    position: absolute;
+    top: 110px;
+    left: 310px;
+}
+
+#banner-container .back-image .banner-content{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#banner-container .back-image .banner-content h1{
+    padding-top: 24px;
+    font-size: 40px;
+    font-weight: 800px;
+}
+
+#banner-container .back-image .banner-content p{
+    font-size: 16px;
+    font-weight: 400px;
+    padding-top: 8px;
+}
+
+#about-container{
     max-width: 400px;
     margin: 40px auto;
     justify-content: center;
