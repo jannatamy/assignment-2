@@ -138,6 +138,11 @@ header .nav-btn{
     opacity: 80%;
 }
 
+.opacity-sixty{
+    color: #FFFFFF;
+    opacity: 60%;
+}
+
 #banner-container .back-image .box-btn{
     display: flex;
     gap: 8px;
@@ -485,9 +490,14 @@ footer{
     text-align: center;
 }
 
+#footer-container .footer-back-image .footer-content h1{
+    font-size: 60px;
+    font-weight: 900px;
+}
+
 #footer-container .footer-back-image .footer-content .icon-name .icon-details{
     display: flex;
-    gap: 2.5px;
+    gap: 8px;
     text-align: center;
 }
 
